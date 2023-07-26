@@ -3,6 +3,6 @@ resource "aws_instance" "zepto_rewards" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Zepto-rewards"
+    Name = "Zepto-rewards-test"
   }
 }
