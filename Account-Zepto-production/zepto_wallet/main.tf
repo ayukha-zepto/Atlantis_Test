@@ -1,4 +1,4 @@
-resource "aws_instance" "Zepto_wallet_prod" {
+resource "aws_instance" "Zepto_wallet_prod_test" {
   ami           = "ami-0ad8ef5571e16cef7"
   instance_type = "t3.micro"
 
