@@ -12,6 +12,5 @@ terraform {
 provider "aws" {
   assume_role {
     role_arn     = "arn:aws:iam::149309639702:role/qa-atlantis-role"
-    session_name = "${var.atlantis_user}-${var.atlantis_repo_owner}-${var.atlantis_repo_name}-${var.atlantis_pull_num}"
   }
 }
